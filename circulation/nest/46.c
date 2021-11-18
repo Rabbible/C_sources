@@ -15,7 +15,7 @@ int main()
 	
 	for(i=0;i<B_MAX;i++)
 	{
-		printf("输入：");
+		printf("input:");
 		scanf("%d",&tmp);
 	    if(count==0)
      	{
@@ -27,7 +27,7 @@ int main()
     	{
     		if(tmp>b[k])
     		{
-    			printf("继续向后找：\n"); 
+    			printf("keep on to find-->:\n"); 
 			}
 			if(k==count-1)
 			{
@@ -37,7 +37,7 @@ int main()
 			}
 			if(tmp<=b[k])
 			{
-				printf("\nzhaodaole gaiweizhi");
+				printf("\nFind the location");
 				w=k;
 				for(w==count-1;w>=k;w--)
 				{
@@ -49,7 +49,7 @@ int main()
 		}
 		for(w=0;w<count;w++)
 		{
-		printf("  b[%d]=%d  ",w,b[w]);	
+			printf("  b[%d]=%d  ",w,b[w]);	
 		}
 	}
 	printf("\n");

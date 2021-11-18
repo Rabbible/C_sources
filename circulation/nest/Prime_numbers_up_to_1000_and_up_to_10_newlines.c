@@ -10,7 +10,7 @@ int main()
         while(j<=k)
         {
             if(i%j==0)
-            break;
+                break;
             j++;
         }
         if(j>=k+1)
@@ -18,8 +18,9 @@ int main()
             count++;
             printf("%4d",i);
             if(count%10==0)
-            printf("\n");
+                printf("\n");
         }
     }
+    // Prime_numbers_up_to_1000_and_up_to_10_newlines
     return 0;
 }

@@ -14,5 +14,6 @@ int main()
         }
         printf("\n");
     }
+    // 正置三角形
     return 0;
 }

@@ -7,6 +7,7 @@ int main()
         for(j=1;j<=9;j++)
         {
             k=i*j;
+            // 九九乘法表
             printf("%3d*%d=%-3d",i,j,k);
         }printf("\n");
     }

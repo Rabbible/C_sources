@@ -14,5 +14,6 @@ int main()
         }
         printf("\n");
     }
+    // 倒置三角形
     return 0;
 }

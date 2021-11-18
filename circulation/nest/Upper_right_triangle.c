@@ -14,6 +14,7 @@ int main()
             {
                 printf("*\t");
             }
+            // 右上半角三角形
         }printf("\n");
     }
     return 0;
