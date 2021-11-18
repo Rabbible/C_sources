@@ -56,10 +56,10 @@ int main()
     printf("\n");//换行
 
     j=min(a,20);//调用函数
-    printf("a[20]中最小值：%d\n",j);
+    printf("In a[20],the min one is:%d\n",j);
 
     k=max(a,20);//调用函数
-    printf("a[20]中最大值：%d\n",k);
+    printf("In a[20],the max one is:%d\n",k);
 
     for(i=0;i<20;i++)
     {
@@ -75,7 +75,7 @@ int main()
     }
     printf("\n"); //换行 
     m=min2(b,count);
-    printf("a[20]能被3整除的数中最小的数：%d\n",m);
+    printf("In a[20],the smallest number divisible by 3 is:%d\n",m);
 
     count=0;
     for(i=0;i<20;i++)
@@ -92,7 +92,7 @@ int main()
     }
     printf("\n");
     l=max2(c,count);
-    printf("a[20]偶数中最大的数：%d\n",l);
+    printf("In a[20],the largest number of even numbers is:%d\n",l);
 
     count=0;
     for(i=0;i<20;i++)
@@ -103,7 +103,7 @@ int main()
             count++;
         }
     }
-    printf("a[20]中所有小于等于50的数：\n");
+    printf("In a[20],all numbers less than or equal to 50:\n");
     for(i=0;i<count;i++)
     {
         printf("%-4d",d[i]);
@@ -113,7 +113,7 @@ int main()
     int e[20];
     int sum=0;
     count=0;
-    printf("a[20]中升序的数：\n");
+    printf("In a[20],ascending order of several:\n");
     for(i=0;i<20;i++)
     {
         if(a[i]/10 < a[i]%10)
@@ -128,10 +128,10 @@ int main()
         printf("%-4d",e[i]);
     }
     printf("\n");
-    printf("升序数的和sum=%d\n",sum);
+    printf("Sum of ascending numbers sum=%d\n",sum);
 
     int f[20];
-    printf("个位和十位之和大于等于5且为升序数的数：\n");
+    printf("An ascending number whose sum of the ones and tens places is greater than or equal to 5:\n");
     for(i=0;i<count;i++)
     {
         if(( e[i]/10 + e[i]%10 )>=5)
@@ -167,7 +167,7 @@ int main()
     mi2=a[0];
     a[0]=a[fk];
     a[fk]=mi2;
-    printf("最大值与a[19]交换，最小值与a[0]交换后的a[20]:\n");
+    printf("The maximum value swaps with a[19],The minimum value swaps with a[0],after that,a[20]:\n");
     for(i=0;i<20;i++)
     {
         printf("%-4d",a[i]);
@@ -190,7 +190,7 @@ int main()
         a[y]=a[i];
         a[i]=z;
     }
-    printf("a[20]从小到大排列并赋值给B[20]：\n");
+    printf("a[20]Sort from low to high and assign values to B[20]:\n");
     for(i=0;i<20;i++)
     {
         B[i]=a[i];
