@@ -1,0 +1,4 @@
+name	M	E	C	Ave
+Jack   78   80   90  82.7
+Shelly   89   80   90  86.3
+Jale   77   89   80  82.0
