@@ -1,4 +1,4 @@
-//输入两个矩阵，编写程序输出两个矩阵的和与积。
+//随机生成两个矩阵，编写程序输出两个矩阵的和与积。
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -15,6 +15,7 @@ int main()
         }
         printf("\n");
     }
+    // 随机生成a矩阵
     printf("******************\n");
     for(i=0;i<3;i++)
     {
@@ -25,6 +26,7 @@ int main()
         }
         printf("\n");
     }
+    // 随机生成b矩阵
     printf("&&&&&&&&&&&&&&&&&&\n");
     printf("s[3][3]=\n");
     for(i=0;i<3;i++)
@@ -36,6 +38,7 @@ int main()
         }
         printf("\n");
     }
+    // 矩阵求和
     printf("&&&&&&&&&&&&&&&&&&\n");
     printf("f[3][3]=\n");
     for(i=0;i<3;i++)
@@ -47,5 +50,6 @@ int main()
         }
         printf("\n");
     }
+    // 矩阵的积
     return 0;
 }
