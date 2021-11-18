@@ -1,4 +1,5 @@
 #include <stdio.h>
+//函数声明
 double fact(int m);
 
 int main(void)
@@ -11,7 +12,7 @@ int main(void)
     printf("%d!=%f\n", n, f);
     return 0;         
 }
-
+//n!=?求n的阶乘
 double fact(int m)
 {
     int i;
