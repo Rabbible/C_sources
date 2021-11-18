@@ -1,6 +1,7 @@
 #include<math.h>
 #include<dos.h>
 #include<graphics. h>
+// 缺少文件
 #include<conio.h>
 #include<stdio.h>
 #define l 135.0
