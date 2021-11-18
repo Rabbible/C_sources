@@ -8,6 +8,7 @@ int main()
     {
         a[i]=a[i-1]+a[i-2];
     }
+    // sum : a[i]=a[i-1]+a[i-2]
     for(i=0;i<10;i++)
     {
         printf("a[%d]=%d\t",i,a[i]);

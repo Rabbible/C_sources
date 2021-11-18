@@ -26,5 +26,6 @@ int main()
             printf("a[%d]=%d\t",i,a[9-i]);
         }
     }
+    // 随机生成一维数组并倒序排列
     return 0;
 }

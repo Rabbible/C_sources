@@ -13,6 +13,7 @@ int main()
               printf("\n");
         }
     }
+    // 100内能被7或11整除的数，并按顺序记录在数组中，打印出来，显示个数
     printf("\ncount=%d",count);
     return 0;
 }
