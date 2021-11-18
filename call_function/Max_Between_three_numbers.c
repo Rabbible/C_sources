@@ -1,4 +1,5 @@
 #include<stdio.h>
+// 两数最大值函数
 double max(double x,double y)
 {
     double z;
@@ -8,9 +9,10 @@ double max(double x,double y)
 int main()
 {
     double a,b,c,d;
-    printf("Please enter three numbers:");
-    scanf("%lf,%lf,%lf",&a,&b,&c);
+    printf("Please enter three numbers:\n");
+    scanf("%lf%lf%lf",&a,&b,&c);
     d=max(a,max(b,c));
+    // 嵌套
     printf("max=%lf\n",d);
     return 0;
 }

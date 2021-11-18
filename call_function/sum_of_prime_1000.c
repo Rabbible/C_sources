@@ -1,4 +1,5 @@
 #include<stdio.h>
+// 判断是否为质数
 int Isprime(int m)
 {
     int i;
@@ -10,6 +11,8 @@ int Isprime(int m)
     else
     return 0;
 }
+
+// 1000以内所有质数的和
 int main()
 {
     int sum,i;

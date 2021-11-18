@@ -1,11 +1,15 @@
 #include<stdio.h>
+//宏定义
 #define N 10
+//函数声明
+// 键盘输入
 void kbdinput(int a[],int n) 
 {
 	int i;
 	for(i=0;i<n;i++)
 		scanf("%d",&a[i]);
 }
+// 倒序
 void reverse(int a[],int n)
 {
 	int i,temp;
@@ -16,16 +20,20 @@ void reverse(int a[],int n)
 		a[n-1-i]=temp;
 	}
 }
+// 输出
 void output(int a[],int n)
 {
 	int i;
 	for(i=0;i<n;i++)
-		printf("%2d",a[i]);
+		printf("%4d",a[i]);
 }
+
 int main()
 {
 	int n,s[N];
-	printf("How many elements:");
+	// N宏定义了所以为s[10],不能超出空间否则数据出错
+	printf("How many elements just less 12:");
+	// 多少个数要排序
 	scanf("%d",&n);
 	printf("Input elements:\n");
 	kbdinput(s,n);

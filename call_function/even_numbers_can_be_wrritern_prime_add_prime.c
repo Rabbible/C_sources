@@ -12,12 +12,14 @@ int judge_prime(int n)// 排除质数的情况
     else
 		return 0;
 }
- 
+// 大于2的偶数可写成两个质数和的形式 
 int main()
 {
-    int n;
+    int n,i;
+    printf("Please enter an even n:\n");
+    // 请输入一个偶数
     scanf("%d",&n);
-    for(int i=3;i<n;i++)
+    for(i=3;i<n;i++)
     {
         if(judge_prime(i)==1&&i%2==1&&judge_prime(n-i)==1&&(n-i)%2==1)//排除掉不符合条件的情况
         {
