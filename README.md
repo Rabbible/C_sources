@@ -1,3 +1,3 @@
-C_sources
+Machine_Theory
 
-This is a repository to store some sources of C.
+# To store 'Two error files'.
